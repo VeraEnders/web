@@ -1,0 +1,37 @@
+/*reset styles*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;  
+}
+
+/*fonts*/
+@font-face {
+    font-family: "Aleo";
+    src: url("assets/fonts/Aleo/Aleo-Bold.ttf");
+    font-weight: 400;
+}
+@font-face {
+    font-family: "RedHatText";
+    src: url("assets/fonts/RedHatText/RedHatText-Medium.ttf");
+    font-weight: 400;
+}
+
+/*COLORS*/
+:root {
+    --bg-dark: #030303;
+    --dark-red: #710707;
+    --font-gold: #9d8665;
+    --font-white: #FFFFFF;
+    --font-black: #000000;
+}
